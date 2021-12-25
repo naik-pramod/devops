@@ -39,7 +39,6 @@ trigger: none
 |`...`Used to add Agent Job/Agentless Job to the pipeline| *Name:* <br /> Specify pipeline's name|
 || *Agent Pool:* <br /> Select Agent Pool.  Instead of managing each agent individually, <br /> you organize agents into agent pools.|
 || *Agent Specification:* <br /> Select Agent Spec. such as   windows-latest, macos-latest, ubuntu-18.4 etc..|
-|||
 |**Get Sources**||
 || *Select Sources*<br />Select a Source, such as Azure Git Repo, Github.. |
 ||*Team Project*<br /> Select Project|
@@ -47,7 +46,12 @@ trigger: none
 ||*Default branch for manual and scheduled builds*<br /> Select Branch |
 ||*Clean*<br /> Select `true` or `False` to clean working directory before running the build |
 ||*Clean Options*<br /> Select `Sources`/`Source and Output directory`/`Sources directory`/`All build Directory`|
-||*Tag Sources*<br /> Select|
+||*Tag Sources*<br /> Select `Never`/`Always`/`on Success`. On every build or every successful build, tag your source code files to identify which version of each file is included in the completed build.|
+||*Tag Format*<br /> Feed format, could be a combination of user-defined or pre-defined variables that have a scope of "All". For example: '$(Build.DefinitionName)_$(Build.DefinitionVersion)_$(Build.BuildId)_$(Build.BuildNumber)_$(My.Variable)'|
+||*Report Build Status*<br />Displays a badge on the source repository to indicate whether the build succeeded or failed.|
+||*Checkout Submodules*<br />The build pipeline will check out your Git submodules if they are in the same repository or in a public repository|
+||*Don't sync Sources*<br />|
+||*Shallow fetch*<br />When selected, limit fetching to the specified number of commits from the tip of each remote branch history. You can specify the number of commits to fetch in Fetch depth option|
 
 
 - 
