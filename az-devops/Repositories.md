@@ -35,7 +35,9 @@ trigger: none
 
 |  Tasks | Variables   | Triggers    |Options |History|
 |--------|-------------|-------------|--------|-------|
-|- *Pipeline* :<br />Used to add Agent Job/Agentless Job to be pipeline |             |             |        |       |
+|Pipeline||||||
+|--------||||||
+|- *Pipeline* :<br />Used to add Agent Job/Agentless Job to the pipeline |             |             |        |       |
 |   - *Name:* <br /> Specify pipeline's name|  |  || |
 |   - *Agent Pool:* <br /> Select Agent Pool.  Instead of managing each agent individually, <br /> you organize agents into agent pools.|||||||
 |   - *Agent Specification:* <br /> Select Agent Spec. such as   windows-latest, macos-latest, ubuntu-18.4 etc.. |||||
