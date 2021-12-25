@@ -9,7 +9,7 @@ YAML pipelines only work with certain version control systems.
 CI triggers cause a pipeline to run whenever you push an update to the specified branches or you push specified tags.
 
 We can specify pipeline triggers in 3 ways:
-1. CI 
+1. ### CI 
   - Two types of Filters:
     - Branch Filters
     - Path Filters
@@ -17,9 +17,10 @@ We can specify pipeline triggers in 3 ways:
 ```trigger:
    - master
    - releases/*`
+   ```
 
-2. Scheduled
-3. Build Completion
+2. ### Scheduled
+3. ### Build Completion
 
 
 
