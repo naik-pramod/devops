@@ -36,35 +36,19 @@ trigger: none
 |Tasks| **Description** |
 |-----|-------------|
 |**Pipeline**| |
-|Used to add Agent Job/Agentless Job to the pipeline| - *Name:* <br /> Specify pipeline's name|
+|`...`Used to add Agent Job/Agentless Job to the pipeline| *Name:* <br /> Specify pipeline's name|
 || *Agent Pool:* <br /> Select Agent Pool.  Instead of managing each agent individually, <br /> you organize agents into agent pools.|
-||- *Agent Specification:* <br /> Select Agent Spec. such as   windows-latest, macos-latest, ubuntu-18.4 etc..|
+|| *Agent Specification:* <br /> Select Agent Spec. such as   windows-latest, macos-latest, ubuntu-18.4 etc..|
 |||
+|**Get Sources**||
+|| *Select Sources*<br />Select a Source, such as Azure Git Repo, Github.. |
+||*Team Project*<br /> Select Project|
+||*Repository*<br /> Select Repo from Project|
+||*Default branch for manual and scheduled builds*<br /> Select Branch |
+||*Clean*<br /> Select `true` or `False` to clean working directory before running the build |
+||*Clean Options*<br /> Select `Sources`/`Source and Output directory`/`Sources directory`/`All build Directory`|
+||*Tag Sources*<br /> Select|
 
-
-|  Tasks | Variables   | Triggers    |Options |History|
-|--------|-------------|-------------|--------|-------|
-|Pipeline||||||
-|--------||||||
-|- *Pipeline* :<br />Used to add Agent Job/Agentless Job to the pipeline |             |             |        |       |
-|   - *Name:* <br /> Specify pipeline's name|  |  || |
-|   - *Agent Pool:* <br /> Select Agent Pool.  Instead of managing each agent individually, <br /> you organize agents into agent pools.|||||||
-|   - *Agent Specification:* <br /> Select Agent Spec. such as   windows-latest, macos-latest, ubuntu-18.4 etc.. |||||
-|   - Parameters|||||
-- Select a Source 
-   Azure Git Repo, Github..
-
-- Team Project
-   
-
-- Repository
-  
-
-- Default branch for manual and scheduled builds
-
-- Clean
-
-- Clean Options
 
 - 
 
