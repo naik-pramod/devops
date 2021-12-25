@@ -37,7 +37,7 @@ trigger: none
 |--------|-------------|-------------|--------|-------|
 |- Pipeline |             |             |        |       |
 |   - Name: Specify pipeline's name|  |  || |
-|   - Agent Pool: Select Agent Pool.\ Instead of managing each agent individually, you organize agents into agent pools.|||||||
+|   - Agent Pool: Select Agent Pool.\Instead of managing each agent individually, you organize agents into agent pools.|||||||
 |   - Agent Specification: Select Agent Spec. such as windows-latest, macos-latest, ubuntu-18.4 etc.. |||||
 |   - Parameters|||||
 - Select a Source 
