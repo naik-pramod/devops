@@ -7,4 +7,4 @@ Azure Pipelines automatically builds and tests code projects to make them availa
 -  using the Classic interface
 
 #### Concepts
-![azpipeline](\az-devops\images\azpipeline.PNG)
+![azpipeline](/az-devops/images/azpipeline.PNG)
