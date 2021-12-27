@@ -31,7 +31,10 @@ trigger: none
 ### 2. Scheduled
 ### 3. Build Completion
 
-### Pipeline Configuration
+### Classic Pipeline Configuration
+
+![azpipeline](/az-devops/images/classic-pipeline.PNG)
+
 
 |Tasks| **Description** |
 |-----|-------------|
@@ -52,9 +55,10 @@ trigger: none
 ||*Checkout Submodules*<br />The build pipeline will check out your Git submodules if they are in the same repository or in a public repository|
 ||*Don't sync Sources*<br />|
 ||*Shallow fetch*<br />When selected, limit fetching to the specified number of commits from the tip of each remote branch history. You can specify the number of commits to fetch in Fetch depth option|
-
-
-- 
+|**Agent JOB**||
+|A job is a logical grouping of tasks that defines the runtime target on which the tasks will execute. An agent job executes tasks on an agent in an agent pool.||
+||*Display Name*<br />Set the Job's display Name |
+||*Agent Pool*<br /> Select agent Pool. When you queue a build, it executes on an agent from the selected pool. You can select a Microsoft-hosted pool, or a self-hosted pool that you manage.|
 
 
 
