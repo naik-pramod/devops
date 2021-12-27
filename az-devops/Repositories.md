@@ -1,17 +1,26 @@
 ### Classic Pipeline
 
-#### Click on *New Pipeline*
+#### 1. Click on *New Pipeline*
+
 ![az-pipeline](/az-devops/images/new-pipeline.PNG)
-#### Select the Repository/Source
+
+#### 2. Select the Repository/Source
+
 ![az-pipeline](/az-devops/images/pipeline-type.png)
+
+#### 3. Select the Pipeline Template
+
 ![az-pipeline](/az-devops/images/classic-newpipeline.png)
+
 ###### Supported Repos
 YAML pipelines only work with certain version control systems.
  - Azure Repos Git
  - GitHub
  - GitHub Enterprise Server
  - Bitbucket Cloud
-#### Configure Classic Pipeline
+
+#### 4. Configure Classic Pipeline
+
 ![az-pipeline](/az-devops/images/classic-pipeline.png)
 
 
