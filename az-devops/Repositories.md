@@ -31,8 +31,11 @@ trigger: none
 ### 2. Scheduled
 ### 3. Build Completion
 
-### Classic Pipeline Configuration
-
+### New Classic Pipeline
+![az-pipeline](/az-devops/images/newpipeline.png)
+### Classic Pipeline Wizard
+![az-pipeline](/az-devops/images/pipeline-type.png)
+![az-pipeline](/az-devops/images/classic-newpipeline.png)
 ![az-pipeline](/az-devops/images/classic-pipeline.png)
 
 
