@@ -33,7 +33,7 @@ trigger: none
 
 ### Classic Pipeline Configuration
 
-![azpipeline](/az-devops/images/classic-pipeline.PNG)
+![az-pipeline](/az-devops/images/classic-pipeline.png)
 
 
 |Tasks| **Description** |
