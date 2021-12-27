@@ -2,7 +2,7 @@
 
 #### New Classic Pipeline
 Click on *New Pipeline*
-![az-pipeline](/az-devops/images/new-pipeline.png)
+![az-pipeline](/az-devops/images/new-pipeline.PNG)
 #### Classic Pipeline Wizard
 Select the Repository/Source
 ![az-pipeline](/az-devops/images/pipeline-type.png)
