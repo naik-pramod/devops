@@ -1,8 +1,10 @@
 ### Classic Pipeline
 
 #### New Classic Pipeline
-![az-pipeline](/az-devops/images/newpipeline.png)
+Click on *New Pipeline*
+![az-pipeline](/az-devops/images/new-pipeline.png)
 #### Classic Pipeline Wizard
+Select the Repository/Source
 ![az-pipeline](/az-devops/images/pipeline-type.png)
 ![az-pipeline](/az-devops/images/classic-newpipeline.png)
 ###### Supported Repos
@@ -11,6 +13,7 @@ YAML pipelines only work with certain version control systems.
  - GitHub
  - GitHub Enterprise Server
  - Bitbucket Cloud
+#### Configure Classic Pipeline
 ![az-pipeline](/az-devops/images/classic-pipeline.png)
 
 
